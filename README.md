@@ -12,14 +12,14 @@ Control Switches: Rotary switches, breakers, and position toggles.
 
 Relay Protection Units: LCD panels and signal LEDs on protection devices (e.g., Schneider Sapam, CET).
 
-## 🚀 Key Features
+## Key Features
 High Precision for Small Objects: Optimized for tiny targets like LED indicators in complex industrial environments.
 
 Comprehensive Dependencies: Includes thop for FLOPs calculation, making it ideal for evaluating performance on edge computing devices (e.g., Jetson Nano, Raspberry Pi).
 
 Visual Analytics: Utilizes seaborn and matplotlib to generate detailed training metrics and performance curves.
 
-## 🛠️ Installation & Environment Setup
+## Installation & Environment Setup
 
 1. Clone the Repository
    
@@ -51,14 +51,14 @@ pip install -r requirements.txt
 
 · Efficiency: thop (For profiling model complexity/FLOPs)
 
-## 📂 Dataset Details
+## Dataset Details
 The dataset consists of high-resolution images from power station cabinets under various lighting conditions.
 
 Format: YOLO TXT (Normalized coordinates).
 
 Pre-processing: Contrast enhancement and color balancing were applied to handle the glare/low-light conditions common in electrical rooms.
 
-## 🏋️ Usage
+## Usage
 Training
 
 ```Bash
@@ -69,7 +69,7 @@ python train.py --img 640 --batch 16 --epochs 100 --data ./data/power_equipment.
 
 Inference (Detection)
 
-## 🖼️ Visualization Results
+## Visualization Results
 The model demonstrates high reliability in complex cabinet layouts:
 
 [Insert Image of your detection result here, e.g., runs/detect/exp/0010.jpg]
