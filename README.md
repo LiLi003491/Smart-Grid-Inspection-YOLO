@@ -28,7 +28,7 @@ cd Power-Station-YOLOv5
 It is recommended to use a virtual environment (Conda or venv).
 
 Bash
-# Install core requirements: PyTorch, OpenCV, Seaborn, etc.
+Install core requirements: PyTorch, OpenCV, Seaborn, etc.
 pip install -r requirements.txt
 # Core Requirements Highlight:
 
@@ -52,6 +52,12 @@ Training
 Bash
 python train.py --img 640 --batch 16 --epochs 100 --data ./data/power_equipment.yaml --weights yolov5s.pt
 Inference (Detection)
+
+# 🖼️ Visualization Results
+The model demonstrates high reliability in complex cabinet layouts:
+
+[Insert Image of your detection result here, e.g., runs/detect/exp/0010.jpg]
+Example: Accurate detection of "Closed" (Red) and "Open" (Green) indicators on a control panel.
 Run detection on new images or videos:
 
 Bash
