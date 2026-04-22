@@ -22,7 +22,7 @@ Visual Analytics: Utilizes seaborn and matplotlib to generate detailed training 
 # 🛠️ Installation & Environment Setup
 1. Clone the Repository
 Bash
-git clone https://github.com/your-username/Power-Station-YOLOv5.git
+git clone https://github.com/your-username/Power-Station-YOLOv5.git.
 cd Power-Station-YOLOv5
 2. Install Dependencies
 It is recommended to use a virtual environment (Conda or venv).
@@ -56,7 +56,7 @@ Inference (Detection)
 # 🖼️ Visualization Results
 The model demonstrates high reliability in complex cabinet layouts:
 
-[Insert Image of your detection result here, e.g., runs/detect/exp/0010.jpg]
+[Insert Image of your detection result here, e.g., runs/detect/exp/0010.jpg].
 Example: Accurate detection of "Closed" (Red) and "Open" (Green) indicators on a control panel.
 Run detection on new images or videos:
 
