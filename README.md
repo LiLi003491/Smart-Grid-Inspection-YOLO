@@ -23,22 +23,24 @@ Visual Analytics: Utilizes seaborn and matplotlib to generate detailed training 
 
 1. Clone the Repository
    
-'''Bash
+```Bash
 
 git clone https://github.com/your-username/Power-Station-YOLOv5.git
 
 cd Power-Station-YOLOv5
 
+```
 2. Install Dependencies
 
 It is recommended to use a virtual environment (Conda or venv).
 
-Bash
+```Bash
 
 Install core requirements: PyTorch, OpenCV, Seaborn, etc.
 
 pip install -r requirements.txt
 
+```
 ## Core Requirements Highlight:
 
 · Framework: torch>=1.7.0 (Supports GPU acceleration)
@@ -59,9 +61,11 @@ Pre-processing: Contrast enhancement and color balancing were applied to handle 
 ## 🏋️ Usage
 Training
 
-Bash
+```Bash
 
 python train.py --img 640 --batch 16 --epochs 100 --data ./data/power_equipment.yaml --weights yolov5s.pt
+
+```
 
 Inference (Detection)
 
@@ -74,5 +78,7 @@ Example: Accurate detection of "Closed" (Red) and "Open" (Green) indicators on a
 
 Run detection on new images or videos:
 
-Bash
+```Bash
 python detect.py --source ./data/images/test.jpg --weights runs/train/exp/weights/best.pt --c
+
+```
