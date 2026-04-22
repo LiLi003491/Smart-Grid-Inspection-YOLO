@@ -23,7 +23,7 @@ Visual Analytics: Utilizes seaborn and matplotlib to generate detailed training 
 
 1. Clone the Repository
    
-、、、Bash
+'''Bash
 
 git clone https://github.com/your-username/Power-Station-YOLOv5.git
 
