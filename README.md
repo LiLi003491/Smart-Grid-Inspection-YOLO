@@ -32,13 +32,13 @@ Bash
 pip install -r requirements.txt
 Core Requirements Highlight:
 
-Framework: torch>=1.7.0 (Supports GPU acceleration)
+· Framework: torch>=1.7.0 (Supports GPU acceleration)
 
-Vision: opencv-python & Pillow
+· Vision: opencv-python & Pillow
 
-Analytics: tensorboard, seaborn, and pandas
+· Analytics: tensorboard, seaborn, and pandas
 
-Efficiency: thop (For profiling model complexity/FLOPs)
+· Efficiency: thop (For profiling model complexity/FLOPs)
 
 📂 Dataset Details
 The dataset consists of high-resolution images from power station cabinets under various lighting conditions.
