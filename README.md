@@ -56,7 +56,7 @@ Inference (Detection)
 # 🖼️ Visualization Results
 The model demonstrates high reliability in complex cabinet layouts:
 
-[Insert Image of your detection result here, e.g., runs/detect/exp/0010.jpg].
+[Insert Image of your detection result here, e.g., runs/detect/exp/0010.jpg]
 Example: Accurate detection of "Closed" (Red) and "Open" (Green) indicators on a control panel.
 Run detection on new images or videos:
 
